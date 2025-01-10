@@ -21,6 +21,10 @@
   @include media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
-
+    .sticky#{$infix}-top {
+      position: sticky;
+      top: 0;
+      z-index: $zindex-sticky;
+    }
   }
 }
