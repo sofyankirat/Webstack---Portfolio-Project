@@ -220,6 +220,11 @@
       @include gradient-bg($dropdown-dark-link-active-bg);
     }
 
+    &.disabled,
+    &:disabled {
+      color: $dropdown-dark-link-disabled-color;
+    }
+  }
 
   .dropdown-divider {
     border-color: $dropdown-dark-divider-bg;
