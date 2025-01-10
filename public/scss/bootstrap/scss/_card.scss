@@ -182,8 +182,17 @@
       @if $enable-rounded {
         &:not(:last-child) {
           @include border-end-radius(0);
-
-
+          
+          .card-img-top,
+          .card-header {
+            // stylelint-disable-next-line property-disallowed-list
+            border-top-right-radius: 0;
+          }
+          .card-img-bottom,
+          .card-footer {
+            // stylelint-disable-next-line property-disallowed-list
+            border-bottom-right-radius: 0;
+          }
         }
 
         &:not(:first-child) {
