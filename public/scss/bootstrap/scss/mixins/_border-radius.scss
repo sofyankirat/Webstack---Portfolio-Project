@@ -70,9 +70,6 @@
   }
 }
 
-@mixin border-bottom-start-radius($radius: $border-radius) {
-  @if $enable-rounded {
-    border-bottom-left-radius: valid-radius($radius);
-  }
+
 }
 // scss-docs-end border-radius-mixins
