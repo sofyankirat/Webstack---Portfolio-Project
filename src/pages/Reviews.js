@@ -224,3 +224,6 @@ function Reviews() {
     </div>
   );
 }
+
+export default Reviews;
+
