@@ -116,7 +116,10 @@
   }
 
   &:disabled,
-
+  &.disabled {
+    color: $color;
+    background-color: transparent;
+  }
 }
 // scss-docs-end btn-outline-variant-mixin
 
