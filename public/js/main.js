@@ -1,3 +1,4 @@
+/* The function part */
 (function ($) {
     "use strict";
 
