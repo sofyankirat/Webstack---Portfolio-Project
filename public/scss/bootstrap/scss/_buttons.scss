@@ -88,6 +88,13 @@
   &:focus {
     text-decoration: $link-hover-decoration;
   }
+    &:disabled,
+    &.disabled {
+    color: $btn-link-disabled-color;
+  }
+
+  // No need for an active state here
+}
 //
 // Button Sizes
 //
