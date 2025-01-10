@@ -3263,13 +3263,4 @@
 	if (tests.cssanimations()) {
 		/* jshint -W053 */
 		$.support.animation = new String(prefixed('animation'))
-		$.support.animation.end = events.animation.end[ $.support.animation ];
-	}
-
-	if (tests.csstransforms()) {
-		/* jshint -W053 */
-		$.support.transform = new String(prefixed('transform'));
-		$.support.transform3d = tests.csstransforms3d();
-	}
-
-})(window.Zepto || window.jQuery, window, document);
+		$.support.animation.end = events.animation.end[ $.support.animation
