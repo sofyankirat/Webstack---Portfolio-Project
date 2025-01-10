@@ -211,8 +211,5 @@ textarea {
     height: if(unit($input-line-height) == "", $input-line-height * 1em, $input-line-height);
     @include border-radius($input-border-radius);
   }
-  &::-webkit-color-swatch {
-    height: if(unit($input-line-height) == "", $input-line-height * 1em, $input-line-height);
-    @include border-radius($input-border-radius);
-  }
+
 }
