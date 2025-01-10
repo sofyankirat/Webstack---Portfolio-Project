@@ -9,7 +9,6 @@ function Hero() {
   const carouselOptions = {
     items: 1, // Number of items to display
     loop: true, // Infinite loop
-    margin: 10, // Margin between items
     nav: true, // Show navigation buttons
     autoplay: true, // Enable auto play
     autoplayTimeout: 3000, // Auto play interval (in milliseconds)
