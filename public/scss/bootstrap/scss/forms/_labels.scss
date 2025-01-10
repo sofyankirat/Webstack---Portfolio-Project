@@ -29,3 +29,8 @@
   @include font-size($input-font-size-lg);
 }
 
+.col-form-label-sm {
+  padding-top: add($input-padding-y-sm, $input-border-width);
+  padding-bottom: add($input-padding-y-sm, $input-border-width);
+  @include font-size($input-font-size-sm);
+}
