@@ -13,7 +13,12 @@
   border-left: $caret-width solid transparent;
 }
 
-
+@mixin caret-end {
+  border-top: $caret-width solid transparent;
+  border-right: 0;
+  border-bottom: $caret-width solid transparent;
+  border-left: $caret-width solid;
+}
 
 @mixin caret-start {
   border-top: $caret-width solid transparent;
