@@ -536,7 +536,3 @@
 
     return WOW;
   }();
-
-  exports.default = WOW;
-  module.exports = exports['default'];
-});
