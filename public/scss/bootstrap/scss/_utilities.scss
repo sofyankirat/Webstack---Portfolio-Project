@@ -578,7 +578,8 @@ $utilities: map-merge(
       class: rounded-start,
       values: (null: $border-radius)
     ),
-
+    // scss-docs-end utils-border-radius
+    // scss-docs-start utils-visibility
     "visibility": (
       property: visibility,
       class: null,
