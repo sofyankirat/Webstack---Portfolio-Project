@@ -143,7 +143,17 @@
 // Remove borders and border-radius to keep list group items edge-to-edge. Most
 // useful within other components (e.g., cards).
 
+.list-group-flush {
+  @include border-radius(0);
 
+  > .list-group-item {
+    border-width: 0 0 $list-group-border-width;
+
+    &:last-child {
+      border-bottom-width: 0;
+    }
+  }
+}
 
 
 // scss-docs-start list-group-modifiers
