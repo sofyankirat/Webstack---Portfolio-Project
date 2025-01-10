@@ -11,6 +11,8 @@
       }
     }
 
-
+    @if (length($result) > 0) {
+      box-shadow: $result;
+    }
   }
 }
