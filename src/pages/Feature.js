@@ -1,4 +1,3 @@
-import OwlCarousel from "react-owl-carousel";
 import "../styles/Feature.css";
 import { Link } from "react-router-dom";
 
